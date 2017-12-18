@@ -1,0 +1,173 @@
+/*--------------------TUDO--------------------*/
+* {
+	margin:0 auto;
+	box-sizing: border-box;
+}
+
+body {
+	background: url('../img/fundo.png') repeat-x;
+	font-family: Helvetica, sans-serif;
+}
+
+section {
+	overflow:auto;
+	min-width:320px;
+}
+
+ul{
+	list-style-type:none;
+}
+
+a{
+	text-decoration:none;
+}
+
+/*--------------------HEADER--------------------*/
+.fundo{
+	position:static;
+}
+.fundo img{
+	width:100%;
+}
+.fundo .logo{
+	width:20vw;
+	margin-left:38vw;
+	margin-top:-25vw;
+	position:absolute;
+}
+.fundo:hover .imag{
+	opacity: 0.9;
+}
+.fundo:hover .logo{
+	opacity: 1;
+}
+.imag{
+	opacity: 1;
+	display: block;
+	width: 100%;
+	transition: .5s ease;
+}
+.logo{
+	transition: 1.2s ease;
+	opacity: 0.07;
+	position: relative;
+	margin-left:35svw;
+}
+.logo{
+	width: 200px;
+}
+
+/*--------------------MENU--------------------*/
+.menu{
+	background-color:#000;
+}
+.menu li{
+	justify-content:space-around;
+	display:inline-flex;
+	margin-left:17vw;
+}
+
+header ul li a{
+	text-align:center;
+}
+
+header span.title{
+	color:#DCDCDC;
+	display:block;
+	font-size:1.5em;
+}
+
+header span.subtitle {
+	color: #DCDCDC;
+	font-size:0.9vw;
+}
+
+
+/*--------------------ARTICLE-INDEX--------------------*/
+.ARTindex img{
+	width:35vw;
+	margin-bottom:10vw;
+}
+.ARTindex h1{
+	background-color: #1212;
+}
+.ARTindex h1 p{
+	margin-left:33vw;
+	padding:10vw;
+	margin-bottom:10vw;
+}
+.ARTindex p{
+	font-size:1.5vw;
+	margin-left:15vw;
+}
+.ARTindex .right{
+	float:right;
+	margin-right:10vw;
+}
+.ARTindex .left{
+	float:left;
+	margin-left:10vw;
+}
+.ARTindex .center{
+	margin-left:30vw;
+	margin-right:30vw;
+}
+.ARTindex .center p{
+	position:absolute;
+	margin-top:109vw;
+	margin-left:11vw;
+}
+
+/*--------------------ARTICLE-GALERIA--------------------*/
+.ARTgale .container{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+  
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	
+	-webkit-flex-flow: row wrap;
+	justify-content: space-around;
+}
+.ARTgale img{
+	height:25vw;
+	margin-top:1vw;
+	max-height:350px;
+}
+
+/*--------------------ARTICLE-VIDEO--------------------*/
+.ARTvid video{
+	width:30vw;
+	margin-top:5vw;
+}
+.ARTvid .conteiner iframe{
+	width:30vw;
+	height:20vw;
+	margin-top:5vw;
+}
+.ARTvid .conteiner{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+  
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	
+	-webkit-flex-flow: row wrap;
+	justify-content: space-around;
+}
+
+/*--------------------FOOTER--------------------*/
+footer{
+	margin-top:1vw;
+	color:#101;
+	font-size:1vw;
+	text-align:center;
+}
